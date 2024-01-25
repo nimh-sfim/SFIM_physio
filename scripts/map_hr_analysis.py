@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # python map_hr_analysis.py 
 
+# cd / 
+# cd Volumes/Macintosh\ HD/Users/deanjn/Documents/NIH/burak_phys/
+# cd Volumes/SFIM_physio/
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -29,6 +33,7 @@ hr_data = hr.iloc[:,1]
 keysList = list(map.keys())
 for ii in range(0, len(keysList)):  
     print(keysList[ii], np.shape(map[keysList[ii]]))
+
 # Define map data arrays
 map_data = map['maprest_fmri']    # map['bp']
 map_data = map_data[0]
@@ -53,7 +58,7 @@ x = map_data                                                #original data to be
 t2 = hr_time                                                #indices for the soon-to-be downsampled data; int(T/ratio) should equal len_map_after_interp = len_hr + 1
 freq_crit = 1/(2*0.2)                                       #Has to be 0 to 1, exclusive
 b, a = butter(4, freq_crit, btype='lowpass', analog=False, fs=50)      
-x_lpf = lfilter(b, a, x)
+x_lpf = scipy.signal.filtfilt(b, a, x)    #lfilter
 
 interpolated = interp1d(t, x_lpf, kind='linear')            #linear, quadratic, cubic
 
@@ -77,7 +82,7 @@ t2 = hr_time                                                #indices for the soo
 cut_off=0.5
 freq_crit = 1/(2*cut_off)                                   #Has to be 0 to 1, exclusive
 b, a = butter(2, freq_crit, btype='lowpass', analog=False, fs=50)      
-x_lpf = lfilter(b, a, x)
+x_lpf = scipy.signal.filtfilt(b, a, x)    #lfilter
 
 interpolated = interp1d(t, x_lpf, kind='linear')            #linear, quadratic, cubic
 
@@ -146,4 +151,9 @@ plt.subplot(5, 1, 5); plt.plot(hr_time, binarized_regr); plt.ylabel('Task Regres
 plt.xlabel('Time (seconds)')   #indices are defined by position in between peaks
 plt.show()
 
+## Save the binarized task regressor: 1 positive, 1 negative
+
+Volumes/SFIM_physio/
+
+np.savetxt(datadir_results + subj_id + '_heart-rate.tsv', hr_data, '%.4f', delimiter = '\t') #fmt='%i,%i')
 
