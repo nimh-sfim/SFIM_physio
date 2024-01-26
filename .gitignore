@@ -2,6 +2,7 @@ data/*
 
 # macOS
 ._*
+scripts/._*
 .DS_Store
 .LSOverride
 # Icon must end with two carriage returns (\r)
