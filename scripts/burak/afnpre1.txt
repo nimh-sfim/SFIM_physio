@@ -1,0 +1,13 @@
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp10.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp10.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp11.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp11.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp12.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp12.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp13.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp13.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp14.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp14.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp15.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp15.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp16.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp16.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp17.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp17.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp18.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp18.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp19.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp19.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp20.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp20.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp21.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp21.sh
+

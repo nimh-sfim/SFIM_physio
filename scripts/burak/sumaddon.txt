@@ -1,0 +1,16 @@
+@SUMA_Make_Spec_FS -sid bp15 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp15/
+@SUMA_Make_Spec_FS -sid bp16 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp16/
+@SUMA_Make_Spec_FS -sid bp17 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp17/
+@SUMA_Make_Spec_FS -sid bp18 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp18/
+@SUMA_Make_Spec_FS -sid bp19 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp19/
+@SUMA_Make_Spec_FS -sid bp20 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp20/
+@SUMA_Make_Spec_FS -sid bp11 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp11/
+@SUMA_Make_Spec_FS -sid bp12 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp12/
+
+@SUMA_Make_Spec_FS -sid bp22 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp22/
+@SUMA_Make_Spec_FS -sid bp23 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp23/
+@SUMA_Make_Spec_FS -sid bp24 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp24/
+@SUMA_Make_Spec_FS -sid bp25 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp25/
+
+
+
