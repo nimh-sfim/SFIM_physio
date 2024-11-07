@@ -2,6 +2,8 @@ data/*
 *nii
 *nii.gz
 *.jpg
+figs 
+.fig
 
 burak/vis
 burak/*m~
