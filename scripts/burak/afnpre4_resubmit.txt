@@ -1,4 +1,0 @@
-tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp22.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp22.sh
-tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp23.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp23.sh
-tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_restbp24.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_restbp24.sh
-

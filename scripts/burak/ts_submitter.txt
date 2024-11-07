@@ -1,1 +1,0 @@
-sbatch  --time=48:00:00 --mem=128g --cpus-per-task=16 ts22.txt

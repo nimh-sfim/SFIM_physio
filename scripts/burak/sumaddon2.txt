@@ -1,4 +1,0 @@
-@SUMA_Make_Spec_FS -sid bp22 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp22/
-@SUMA_Make_Spec_FS -sid bp23 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp23/
-@SUMA_Make_Spec_FS -sid bp24 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp24/
-@SUMA_Make_Spec_FS -sid bp25 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp25/

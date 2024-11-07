@@ -1,1 +1,0 @@
-swarm -g 64 -t 16 -f afnpre4_resubmit.txt --module afni

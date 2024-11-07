@@ -1,3 +1,0 @@
-flirt -in /data/akinb2/allbp/fsurfs/bp10/mri/anat_brain.nii.gz  -ref /data/akinb2/allbp/bp10/BinH_mean.nii -applyxfm -init /data/akinb2/allbp/bp10/anat2BinH  -o /data/akinb2/allbp/bp10/anatBinHreg &
-flirt -in /data/akinb2/allbp/fsurfs/bp10/mri/anat_brain.nii.gz  -ref /data/akinb2/allbp/bp10/BouH_mean.nii -applyxfm -init /data/akinb2/allbp/bp10/anat2BouH  -o /data/akinb2/allbp/bp10/anatBouHreg &
-flirt -in /data/akinb2/allbp/fsurfs/bp10/mri/anat_brain.nii.gz  -ref /data/akinb2/allbp/bp10/Rest_mean.nii -applyxfm -init /data/akinb2/allbp/bp10/anat2Rest  -o /data/akinb2/allbp/bp10/anatRestreg &
