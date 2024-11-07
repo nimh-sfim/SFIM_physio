@@ -1,0 +1,9 @@
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp11.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp11.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp12.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp12.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp13.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp13.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp14.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp14.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp16.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp16.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp17.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp17.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp18.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp18.sh
+
+
