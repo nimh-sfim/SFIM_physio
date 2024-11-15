@@ -3,7 +3,7 @@ data/*
 *nii.gz
 *.jpg
 figs 
-.fig
+*.fig
 
 burak/vis
 burak/*m~
