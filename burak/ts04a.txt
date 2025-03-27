@@ -1,0 +1,2 @@
+module load freesurfer/7.1.1 > /dev/null 2>&1 ; source $FREESURFER_HOME/SetUpFreeSurfer.sh
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp19  -autorecon-all -sd /data/akinb2/allbp/fsurfs/ -no-isrunning -notal-check

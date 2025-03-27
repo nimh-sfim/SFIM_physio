@@ -1,0 +1,4 @@
+@SSwarper -init_skullstr_off -input /data/akinb2/allbp/fsurfs/bp26/SUMA/brain.finalsurfs.nii -base MNI152_2009_template_SSW.nii.gz -subid bp26 -odir /data/akinb2/allbp/bp26/anat/ -warpscale 0.5 -verb
+@SSwarper -init_skullstr_off -input /data/akinb2/allbp/fsurfs/bp27/SUMA/brain.finalsurfs.nii -base MNI152_2009_template_SSW.nii.gz -subid bp27 -odir /data/akinb2/allbp/bp27/anat/ -warpscale 0.5 -verb
+@SSwarper -init_skullstr_off -input /data/akinb2/allbp/fsurfs/bp28/SUMA/brain.finalsurfs.nii -base MNI152_2009_template_SSW.nii.gz -subid bp28 -odir /data/akinb2/allbp/bp28/anat/ -warpscale 0.5 -verb
+@SSwarper -init_skullstr_off -input /data/akinb2/allbp/fsurfs/bp29/SUMA/brain.finalsurfs.nii -base MNI152_2009_template_SSW.nii.gz -subid bp29 -odir /data/akinb2/allbp/bp29/anat/ -warpscale 0.5 -verb

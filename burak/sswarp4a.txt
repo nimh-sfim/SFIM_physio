@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+module load afni
+@SSwarper -init_skullstr_off -input /data/akinb2/allbp/fsurfs/bp32/SUMA/brain.finalsurfs.nii.gz -base MNI152_2009_template_SSW.nii.gz -subid bp32 -odir /data/akinb2/allbp/bp32/anat/ -warpscale 0.5 -verb
+

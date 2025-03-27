@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+module load freesurfer
+/usr/local/apps/freesurfer/7.4.1/bin/recon-all -s bp29 -i /data/akinb2/allbp/bp29/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/

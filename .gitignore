@@ -10,7 +10,13 @@ burak/*m~
 burak/group
 burak/pre
 burak/*.mat
-
+burak/*.o
+burak/*.e
+burak/*.png
+burak/*.jpeg
+burak/*.svg
+burak/*.1D
+burak/*.out
 *.err
 Decon.REML_cmd 
 *1D

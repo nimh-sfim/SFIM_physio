@@ -1,0 +1,5 @@
+@SUMA_Make_Spec_FS -sid bp30 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp30/ &
+@SUMA_Make_Spec_FS -sid bp31 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp31/ &
+@SUMA_Make_Spec_FS -sid bp32 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp32/ &
+@SUMA_Make_Spec_FS -sid bp33 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp33/ &
+@SUMA_Make_Spec_FS -sid bp34 -NIFTI -fspath /data/akinb2/allbp/fsurfs/bp33/ &

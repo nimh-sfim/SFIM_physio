@@ -1,0 +1,10 @@
+flirt -in /data/akinb2/allbp/fsurfs/bp10/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp10/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp10/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp10/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp11/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp11/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp11/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp11/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp12/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp12/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp12/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp12/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp13/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp13/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp13/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp13/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp14/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp14/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp14/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp14/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp15/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp15/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp15/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp15/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp16/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp16/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp16/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp16/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp17/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp17/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp17/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp17/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp18/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp18/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp18/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp18/mri/anat_brain
+flirt -in /data/akinb2/allbp/fsurfs/bp19/mri/brain.nii  -ref /data/akinb2/allbp/fsurfs/bp19/mri/rawavg.nii -applyxfm -init /data/akinb2/allbp/fsurfs/bp19/mri/p2a   -o /data/akinb2/allbp/fsurfs/bp19/mri/anat_brain

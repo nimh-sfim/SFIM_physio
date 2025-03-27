@@ -1,0 +1,3 @@
+mcflirt -in /data/akinb2/allbp/bp20/*Resting*nii -o /data/akinb2/allbp/bp20/Rest_mcf -refvol 1 -plots
+mcflirt -in /data/akinb2/allbp/bp20/*BoutHold*nii -o /data/akinb2/allbp/bp20/BouH_mcf -refvol 1 -plots
+mcflirt -in /data/akinb2/allbp/bp20/*BinHold*nii -o /data/akinb2/allbp/bp20/BinH_mcf -refvol 1 -plots

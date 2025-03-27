@@ -1,0 +1,1 @@
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp21 -i /data/akinb2/allbp/bp21/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/

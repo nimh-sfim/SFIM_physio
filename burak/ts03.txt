@@ -1,0 +1,11 @@
+module load freesurfer/7.1.1 > /dev/null 2>&1 ; source $FREESURFER_HOME/SetUpFreeSurfer.sh
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp10 -i /data/akinb2/allbp/bp10/anat.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp11 -i /data/akinb2/allbp/bp11/anat.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp12 -i /data/akinb2/allbp/bp12/anat.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp13 -i /data/akinb2/allbp/bp13/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp14 -i /data/akinb2/allbp/bp14/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp15 -i /data/akinb2/allbp/bp15/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp16 -i /data/akinb2/allbp/bp16/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp17 -i /data/akinb2/allbp/bp17/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp18 -i /data/akinb2/allbp/bp18/*t1*10.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
+/usr/local/apps/freesurfer/7.1.1/bin/recon-all -s bp19 -i /data/akinb2/allbp/bp19/*t1*4.nii -autorecon-all -sd /data/akinb2/allbp/fsurfs/
