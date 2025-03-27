@@ -1,0 +1,2 @@
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp34.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp34.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp34.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp34.sh

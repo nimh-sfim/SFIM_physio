@@ -1,0 +1,17 @@
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp26.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp26.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp27.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp27.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp28.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp28.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp29.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp29.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp30.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp30.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp31.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp31.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp32.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp32.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_bouhbp33.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_bouhbp33.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp26.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp26.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp27.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp27.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp28.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp28.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp29.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp29.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp30.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp30.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp31.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp31.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp32.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp32.sh
+tcsh -xef /data/akinb2/allbp/scripts/pre/preproc_binhbp33.sh 2>&1 | tee /data/akinb2/allbp/scripts/pre/output.preproc_binhbp33.sh
+
