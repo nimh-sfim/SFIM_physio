@@ -1,5 +1,8 @@
 #!/bin/bash
 # bash RUN_rapidtide_card_lfo_rest.sh
+# sbatch --cpus-per-task=16 --mem=64g --time 60:00:00 RUN_rapidtide_card_lfo_rest.sh
+# sbatch --cpus-per-task=32 --mem=128g --time 60:00:00 RUN_rapidtide_card_lfo_rest.sh
+
 
 #https://rapidtide.readthedocs.io/en/latest/usage_rapidtide.html
 #The file you input here should be the result of any preprocessing you intend to do. The expectation is that rapidtide will be run 
@@ -27,12 +30,19 @@
 # cd ../../../scripts/
 
 #"10" "11" "12" "13" "14" "15" "16" "17" "18" "19" "20" 
-for sbjid in "26" "27" "28" "30" "31" "32" "33" "34"; do
-    
+
+ml rapidtide/3.0.2
+ml R
+# source myconda
+# conda activate sfim_physio_env
+
+for sbjid in "10" "11" "12" "13" "14" "15" "16" "18" "19" "20" "21" "22" "23" "24" "25" "26" "27" "28" "30" "31" "32" "33" "34"; do
+#for sbjid in "15"; do
+
     fmri_data=/data/SFIM_physio/data/bp${sbjid}/func_rest/pb04.bp${sbjid}.r01.scale.nii
-    card_lfo_data=/data/SFIM_physio/physio/physio_results/sub${sbjid}/sub${sbjid}_lfo_test_downsampled2TR_arr.tsv
-    out_prefix=sub${sbjid}_resting_card_lfo_delay_20
-    out_dir=/data/SFIM_physio/data/derivatives/sub${sbjid}/rapidtide/cardiac_lfo4
+    card_lfo_data=/data/SFIM_physio/physio/physio_results/sub${sbjid}/sub${sbjid}_lfo_downsampled2TR_arr_resting.tsv
+    out_prefix=sub${sbjid}_resting_card_lfo_delay_1030
+    out_dir=/data/SFIM_physio/data/derivatives/sub${sbjid}/rapidtide/cardiac_lfo8
     cd ${out_dir}
 
     if [ -f ${fmri_data} ]; then
@@ -42,7 +52,7 @@ for sbjid in "26" "27" "28" "30" "31" "32" "33" "34"; do
         ${fmri_data}                            \
         ${out_prefix}                           \
         --passes            1                   \
-        --searchrange       -20 20              \
+        --searchrange       -10 30              \
         --datatstep         0.75                \
         --oversampfac       5                   \
         --regressor         ${card_lfo_data}
